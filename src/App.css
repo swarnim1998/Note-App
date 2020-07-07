@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+  height: 10vh;
+  background-color:#346beb;  
+}
+
+h2{
+ padding: 15px; 
+ float: left;
+ color: white;
+}
+.editor{
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+.update{
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  float: left;
+  margin-left:60px;
+}
+.search input{
+  background: white;
+  border-radius: 5px;
+  width: 500px;
+  color: black;
+  height: 45px;
+}
+.update-editor{
+  position: relative;
+  height: 60%;
+  width: 40vw;
+  border-radius: 7px;
+  box-shadow: 0 5px 5px #ccc;
+}
+
+.main-editor{
+  position: relative;
+  height: 60%;
+  width: 40vw;
+  border-radius: 7px;
+  box-shadow: 0 5px 5px #ccc;
+}
+
+input{
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.plus-sign{
+  font-size: 45px !important;
+  font-weight: 900;
+  color:#4c34eb;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
+.upd-plus-sign{
+  font-size: 45px !important;
+  font-weight: 900;
+  color: yellow;
+  cursor: pointer;
+  z-index: 222;
+  background: transparent;
+}
+
+.note-btn{
+  position: relative;
+  float: right;
+  border-radius: 50px;
+  box-shadow:0 5px 5px #ccc ;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.upd-btn{
+  position: relative;
+  float: right;
+  border-radius: 50px;
+  box-shadow:0 5px 5px #ccc ;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+.upd-btn :hover{
+  background: yellow;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+}
+.note-btn :hover{
+  background: #4c34eb;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+}
+.delete-btn{ 
+  color: white;
+  float: right;
+  border: none;
+}
+.delete-icon{
+  color: black;
+  width: 0.7em;
+  height: 0.7em;
+}
+.delete-btn :hover{
+  background: red;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.note{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
